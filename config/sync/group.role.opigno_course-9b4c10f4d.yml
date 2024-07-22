@@ -1,0 +1,19 @@
+uuid: a8307ae4-c4c3-42c2-bcd3-b257e82a618c
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.opigno_course
+  enforced:
+    config:
+      - user.role.statistics_reader
+_core:
+  default_config_hash: v5VneINDZGB_5X7CoqVBvM8JS4zDEJASEkpKQLHBdVQ
+id: opigno_course-9b4c10f4d
+label: 'Statistics manager'
+weight: 5
+internal: true
+audience: outsider
+group_type: opigno_course
+permissions_ui: false
+permissions: {  }

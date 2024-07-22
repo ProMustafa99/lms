@@ -1,0 +1,54 @@
+display:
+  default:
+    display_title: الرئيسي
+    display_options:
+      exposed_form:
+        options:
+          submit_button: تطبيق
+          reset_button_label: 'إعادة الضبط'
+          exposed_sorts_label: 'الترتيب حسب'
+          sort_asc_label: تصاعدي
+          sort_desc_label: تنازلي
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- الكل -'
+            offset_label: الإزاحة
+      fields:
+        id_1:
+          separator: ', '
+        label:
+          label: الاسم
+          separator: ', '
+        type:
+          label: النوع
+          separator: ', '
+        name:
+          label: المالك
+          separator: ', '
+        operations:
+          label: 'روابط العمليات'
+      filters:
+        label:
+          expose:
+            label: الاسم
+      title: مجموعات
+  courses_list:
+    display_options:
+      filters:
+        label:
+          expose:
+            label: الاسم
+  page_1:
+    display_title: مجموعات
+    display_options:
+      filters:
+        label:
+          expose:
+            label: الاسم
+  trainings_list:
+    display_options:
+      filters:
+        label:
+          expose:
+            label: الاسم

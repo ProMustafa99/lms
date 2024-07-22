@@ -1,0 +1,20 @@
+uuid: 11fd5275-b945-4e9d-aabb-179d4a7704fd
+langcode: en
+status: true
+dependencies:
+  module:
+    - private_message
+_core:
+  default_config_hash: YqYjB5bQKla5WDZewswK3utJqxf7pnsDAYM8oygbeCo
+id: private_message_thread.field_create_group
+field_name: field_create_group
+entity_type: private_message_thread
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,27 @@
+uuid: 5e3754e1-2bd6-49cb-a254-03c64c4f47c0
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - aristotle
+_core:
+  default_config_hash: XpaW8xVmJZ3p4lsL6R6fd475QKJYrGhtUMYv4edlmhI
+id: pagetitle
+theme: aristotle
+region: top
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/user/password\r\n/user/register\r\n/user/login"
+    negate: true
+    context_mapping: {  }

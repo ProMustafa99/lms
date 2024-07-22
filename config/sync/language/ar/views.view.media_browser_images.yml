@@ -1,0 +1,43 @@
+display:
+  default:
+    display_title: الرئيسي
+    display_options:
+      exposed_form:
+        options:
+          submit_button: تطبيق
+          reset_button_label: 'إعادة الضبط'
+          exposed_sorts_label: 'الترتيب حسب'
+          sort_asc_label: تصاعدي
+          sort_desc_label: تنازلي
+      pager:
+        options:
+          tags:
+            previous: '‹ السابق'
+            next: 'التالي ›'
+          expose:
+            items_per_page_options_all_label: '- الكل -'
+            offset_label: الإزاحة
+      fields:
+        bundle:
+          separator: ', '
+        entity_browser_select:
+          label: عمليات
+        field_media_image:
+          label: الصورة
+          separator: ', '
+        name:
+          label: الاسم
+          separator: ', '
+      filters:
+        status:
+          expose:
+            label: صحيح
+          group_info:
+            group_items:
+              1:
+                title: منشور
+              2:
+                title: 'غير منشور'
+        bundle:
+          expose:
+            label: المزود

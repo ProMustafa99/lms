@@ -1,0 +1,60 @@
+display:
+  default:
+    display_title: الرئيسي
+    display_options:
+      fields:
+        id_1:
+          separator: ', '
+        name_1:
+          label: المستخدم
+          separator: ', '
+        finished:
+          separator: ', '
+        id:
+          separator: ', '
+        name:
+          separator: ', '
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- الكل -'
+            offset_label: الإزاحة
+      exposed_form:
+        options:
+          submit_button: تطبيق
+          reset_button_label: 'إعادة الضبط'
+          exposed_sorts_label: 'الترتيب حسب'
+          sort_asc_label: تصاعدي
+          sort_desc_label: تنازلي
+  dashboard_notavaluated_modules:
+    display_options:
+      fields:
+        id:
+          separator: ', '
+        name:
+          separator: ', '
+        name_1:
+          separator: ', '
+        id_1:
+          separator: ', '
+  opigno_not_evaluated:
+    display_options:
+      fields:
+        id:
+          separator: ', '
+        id_1:
+          separator: ', '
+        name:
+          separator: ', '
+        name_1:
+          label: المستخدم
+          separator: ', '
+        started:
+          separator: ', '
+        finished:
+          separator: ', '
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- الكل -'
+            offset_label: الإزاحة

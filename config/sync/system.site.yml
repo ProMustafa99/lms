@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: l58O_yEXSo-SeJi19LXdzTU1tNJG3lmnIhCitRkM1tk
+langcode: en
+uuid: d28ad2f4-f98b-48a0-9be9-a3f1ea3d7e94
+name: lms
+mail: mustfasalama@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

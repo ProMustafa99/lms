@@ -1,0 +1,56 @@
+display:
+  default:
+    display_title: الرئيسي
+    display_options:
+      exposed_form:
+        options:
+          submit_button: تطبيق
+          sort_asc_label: تصاعدي
+          sort_desc_label: تنازلي
+          bef:
+            general:
+              secondary_label: 'الخيارات المتقدمة'
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- الكل -'
+            offset_label: الإزاحة
+      fields:
+        label_1:
+          separator: ', '
+        field_learning_path_category:
+          separator: ', '
+        field_learning_path_description:
+          separator: ', '
+      filters:
+        combine:
+          expose:
+            placeholder: بحث
+        opigno_group_membership:
+          expose:
+            label: الرؤية
+        field_learning_path_category_target_id:
+          expose:
+            label: التصنيفات
+        field_learning_path_duration_target_id:
+          expose:
+            label: 'المدة الزمنية'
+        status:
+          expose:
+            label: الحالة
+          group_info:
+            label: الحالة
+            group_items:
+              1:
+                title: اكتمل
+              4:
+                title: نجح
+              5:
+                title: فشل
+      sorts:
+        weight:
+          expose:
+            label: الوزن
+        label:
+          expose:
+            label: العنوان

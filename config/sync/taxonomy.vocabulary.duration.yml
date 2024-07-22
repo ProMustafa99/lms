@@ -1,0 +1,10 @@
+uuid: 5324c119-e782-4eca-8bd2-c6dd45bec216
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: XHvJwMF1mkmlkkHqMuGxxU1BWJWbR8ltuzOadP6FUn8
+name: Duration
+vid: duration
+description: ''
+weight: 0

@@ -1,0 +1,47 @@
+display:
+  default:
+    display_title: الرئيسي
+    display_options:
+      exposed_form:
+        options:
+          submit_button: تطبيق
+          reset_button_label: 'إعادة الضبط'
+          exposed_sorts_label: 'الترتيب حسب'
+          sort_asc_label: تصاعدي
+          sort_desc_label: تنازلي
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- الكل -'
+            offset_label: الإزاحة
+      fields:
+        title:
+          label: العنوان
+          separator: ', '
+        type:
+          label: النوع
+          separator: ', '
+        uid:
+          label: المؤلف
+          separator: ', '
+        status:
+          label: الحالة
+          settings:
+            format_custom_true: منشور
+            format_custom_false: 'غير منشور'
+          separator: ', '
+        changed:
+          label: التحديث
+          separator: ', '
+        edit_opigno_calendar_event:
+          label: عمليات
+          text: تحرير
+        delete_opigno_calendar_event:
+          text: حذف
+      filters:
+        title:
+          expose:
+            label: العنوان
+        type:
+          expose:
+            label: النوع

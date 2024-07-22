@@ -1,0 +1,37 @@
+uuid: 315cc551-6e34-46a0-919d-7e1af97986ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.opigno-admin
+  module:
+    - system
+    - user
+  theme:
+    - aristotle
+_core:
+  default_config_hash: jaaTqh2JRMbfnzCe_4Cd-uLwAHiHSljuCSdXmnEoeMc
+id: opigno_admin
+theme: aristotle
+region: admin_opigno
+weight: 0
+provider: null
+plugin: 'system_menu_block:opigno-admin'
+settings:
+  id: 'system_menu_block:opigno-admin'
+  label: 'Opigno admin'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      user_manager: user_manager
+      content_manager: content_manager
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

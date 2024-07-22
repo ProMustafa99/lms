@@ -1,0 +1,50 @@
+display:
+  default:
+    display_title: الرئيسي
+    display_options:
+      fields:
+        id:
+          separator: ', '
+        training:
+          separator: ', '
+      exposed_form:
+        options:
+          submit_button: بحث
+          reset_button_label: 'إعادة الضبط'
+          exposed_sorts_label: 'الترتيب حسب'
+          sort_asc_label: تصاعدي
+          sort_desc_label: تنازلي
+          bef:
+            general:
+              secondary_label: 'الخيارات المتقدمة'
+      arguments:
+        uid:
+          exception:
+            title: الكل
+      filters:
+        label:
+          expose:
+            placeholder: بحث
+        status:
+          expose:
+            label: الحالة
+          group_info:
+            group_items:
+              2:
+                title: 'تم الإنهاء'
+  certificates:
+    display_options:
+      fields:
+        id:
+          separator: ', '
+        label:
+          separator: ', '
+      filters:
+        label:
+          expose:
+            placeholder: بحث
+        status:
+          expose:
+            label: الحالة
+          group_info:
+            label: الحالة

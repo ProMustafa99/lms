@@ -1,0 +1,10 @@
+uuid: 1990546b-7b13-409c-bf1d-143cf41e6659
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: kZEeWqiLb0Si7Cnni_F3Iuuz6QejlMIouwV0vqH2TGM
+id: ilt_calendar_event
+label: 'Instructor-led training calendar event'
+description: ''
+date_field_type: daterange

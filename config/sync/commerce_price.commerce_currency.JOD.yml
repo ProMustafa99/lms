@@ -1,0 +1,9 @@
+uuid: 0c612d29-3c43-4fc9-82f0-b18bb15ca704
+langcode: en
+status: true
+dependencies: {  }
+currencyCode: JOD
+name: 'Jordanian Dinar'
+numericCode: '400'
+symbol: JOD
+fractionDigits: 3

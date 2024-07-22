@@ -1,0 +1,60 @@
+display:
+  default:
+    display_title: الرئيسي
+    display_options:
+      title: الإشعارات
+      fields:
+        id:
+          separator: ', '
+        url:
+          separator: ', '
+        has_read:
+          separator: ', '
+        message:
+          separator: ', '
+      exposed_form:
+        options:
+          submit_button: تطبيق
+          reset_button_label: 'إعادة الضبط'
+          exposed_sorts_label: 'الترتيب حسب'
+          sort_asc_label: تصاعدي
+          sort_desc_label: تنازلي
+      arguments:
+        uid:
+          exception:
+            title: الكل
+  block_unread_dashboard:
+    display_options:
+      fields:
+        id:
+          separator: ', '
+        url:
+          separator: ', '
+        has_read:
+          separator: ', '
+        message:
+          separator: ', '
+  page_all:
+    display_title: الصفحة
+    display_options:
+      fields:
+        id:
+          separator: ', '
+        url:
+          separator: ', '
+        created:
+          label: التاريخ
+          separator: ', '
+        message:
+          label: الرسالة
+          separator: ', '
+        has_read:
+          separator: ', '
+      pager:
+        options:
+          tags:
+            next: 'التالي ›'
+            previous: '‹ السابق'
+          expose:
+            items_per_page_options_all_label: '- الكل -'
+            offset_label: الإزاحة

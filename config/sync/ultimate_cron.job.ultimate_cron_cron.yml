@@ -1,0 +1,27 @@
+uuid: 40457bd4-237c-4368-889f-9b87d3eb1af0
+langcode: en
+status: true
+dependencies: {  }
+title: 'Runs internal cleanup operations'
+id: ultimate_cron_cron
+weight: 0
+module: ultimate_cron
+callback: ultimate_cron_cron
+scheduler:
+  id: simple
+  configuration:
+    rules:
+      - '0+@ */3 * * *'
+launcher:
+  id: serial
+  configuration:
+    timeouts:
+      lock_timeout: 3600
+    launcher:
+      thread: 0
+logger:
+  id: database
+  configuration:
+    method: '3'
+    expire: 1209600
+    retain: 1000

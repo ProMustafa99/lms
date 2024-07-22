@@ -1,0 +1,6 @@
+settings:
+  allowed_values:
+    0:
+      label: عام
+    2:
+      label: خاص

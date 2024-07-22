@@ -1,0 +1,12 @@
+uuid: bd349df1-26b6-45e9-8072-fb9e7981d644
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: sbzcgtXvc0zjbV3AejaLPkxKwqaNSyO0lvbm-2gT5Hg
+id: media.image_only
+label: 'Image only'
+targetEntityType: media
+cache: true

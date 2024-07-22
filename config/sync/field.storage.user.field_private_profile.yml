@@ -1,0 +1,20 @@
+uuid: a19f5f20-c0ac-43a7-98ef-ba55fc5d4f07
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: GQmTIQdv7l2hmhh0cQda8fbjZOeeqoJwUNzFS5IhWJo
+id: user.field_private_profile
+field_name: field_private_profile
+entity_type: user
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

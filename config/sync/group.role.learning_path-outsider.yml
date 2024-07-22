@@ -1,0 +1,18 @@
+uuid: 3a2e13a3-67f8-40cd-89bc-7995759883c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.learning_path
+_core:
+  default_config_hash: 2vplGQbbT82LYTr_34lK-hbfweU4XjF8WYs9t1IFNYE
+id: learning_path-outsider
+label: Outsider
+weight: -101
+internal: true
+audience: outsider
+group_type: learning_path
+permissions_ui: true
+permissions:
+  - 'join group'
+  - 'view group'

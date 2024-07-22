@@ -1,0 +1,30 @@
+uuid: 6fdaf603-db2c-494a-bd87-7e2a9b6d025d
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.restricted_html
+  module:
+    - comment
+    - contact
+    - filter
+    - media
+    - opigno_dashboard
+    - opigno_module
+    - system
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'Anonymous user'
+weight: -10
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'opigno dashboard layout access'
+  - 'restful post color_rest_resource'
+  - 'search content'
+  - 'take modules'
+  - 'use text format restricted_html'
+  - 'view media'

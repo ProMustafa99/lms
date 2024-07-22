@@ -1,0 +1,12 @@
+uuid: 32888ed8-82bf-4932-aeb8-c5760d072cae
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: VEHCMtzYQhn_odUXRiJXTgPWCne9GQvuxWhUGV_pwQk
+id: user.private_message_author
+label: 'Private Message Author'
+targetEntityType: user
+cache: true

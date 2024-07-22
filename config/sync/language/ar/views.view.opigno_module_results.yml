@@ -1,0 +1,43 @@
+display:
+  default:
+    display_title: الرئيسي
+    display_options:
+      exposed_form:
+        options:
+          submit_button: تطبيق
+          reset_button_label: 'إعادة الضبط'
+          exposed_sorts_label: 'الترتيب حسب'
+          sort_asc_label: تصاعدي
+          sort_desc_label: تنازلي
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- الكل -'
+            offset_label: الإزاحة
+      fields:
+        name:
+          label: الاسم
+          separator: ', '
+        started:
+          separator: ', '
+        finished:
+          label: اكتمل
+          separator: ', '
+        score:
+          label: الدرجة
+          separator: ', '
+        evaluated:
+          separator: ', '
+        opigno_module_result_link:
+          label: النتائج
+        opigno_module_result_actions:
+          label: الإجراءات
+      filters:
+        uid:
+          expose:
+            label: 'اسم المستخدم'
+      title: النتائج
+      arguments:
+        id_1:
+          exception:
+            title: الكل
